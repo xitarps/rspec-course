@@ -9,7 +9,9 @@ class Movie
     if actor.ready?
       actor.act
       actor.fall_off_ladder
+      actor.fall_off_ladder
       actor.light_on_fire
+      actor.act
     end
   end
 end
